@@ -1,0 +1,74 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# OS/system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+.Spotlight-V100
+.Trashes
+
+# JVM/Java artifacts
+*.log
+*.hprof
+hs_err_pid*.log
+replay_pid*.log
+heapdump.hprof
+gc*.log
+
+# Additional build outputs
+out/
+bin/
+dependency-reduced-pom.xml
+
+# Local environment and secrets (optional; keep out of VCS)
+.env
+.env.*
+application-local.properties
+application-local.yml
+application-*.secrets.properties
+application-*.secrets.yml
+
+# Test/coverage
+jacoco.exec
+
+# Tooling (optional)
+*.http
+.http-client.env.json
+.fleet/
+.idea/httpRequests/
